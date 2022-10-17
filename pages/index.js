@@ -1,7 +1,6 @@
 
 function Home() { 
-    return <div>Infootball 
-    </div>
+    return <div>Infootball pesquisa </div>
 }
 
 export default Home
