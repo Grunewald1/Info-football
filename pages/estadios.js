@@ -2,12 +2,12 @@
 import  Link  from "next/link";
 
 
-function Sobre() { 
+function Estadios() { 
 
     return (
         <div>      
-            <h1>Sobre</h1>
-
+            <h1>Estadios</h1>
+ 
             <Link href="/">
                 <a>Home</a>
             </Link>
@@ -16,4 +16,4 @@ function Sobre() {
  }
  
  
- export default Sobre
+ export default Estadios 

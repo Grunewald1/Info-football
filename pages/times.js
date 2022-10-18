@@ -2,11 +2,11 @@
 import  Link  from "next/link";
 
 
-function Sobre() { 
+function Times() { 
 
     return (
         <div>      
-            <h1>Sobre</h1>
+            <h1>Times</h1>
 
             <Link href="/">
                 <a>Home</a>
@@ -16,4 +16,4 @@ function Sobre() {
  }
  
  
- export default Sobre
+ export default Times
