@@ -6,7 +6,8 @@ function Times() {
 
     return (
         <div>
-            <Header />
+        <Header />
+                   
 
             <h1>Times</h1>
 
@@ -14,7 +15,9 @@ function Times() {
                 <a>voltar a home</a>
             </Link>
 
+
         </div>)
+
 }
 
 

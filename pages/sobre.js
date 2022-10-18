@@ -8,11 +8,21 @@ function Sobre() {
         <div>
             <Header />
 
-            <h1>Sobre</h1>
+            <div className="container">
+                <h1 className="color-dark">Sobre</h1>
+                <p> 
+                    aqui agente se preocupa em falar sobre todas as noticias do que acontece no mundo da bola.
+                </p>
 
-            <Link href="/">
-                <a>voltar a home </a>
-            </Link>
+                <h2>siga agente nas redes socias para acompanhar novidadades</h2> 
+
+
+                <Link href="/">
+                    <div className="button-19">voltar a home </div>
+                </Link>
+
+            </div>
+
 
         </div>)
 }

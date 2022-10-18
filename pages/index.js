@@ -2,38 +2,46 @@ import  Link  from "next/link";
 import Head from "next/head";
 import Header from "../src/components/Header";
 
+
+
 function Home() { 
    return (
    <div>            
-            <Header />
 
             <Head>
                <title>Infootball</title>
-               <link rel="shortcut icon" href="/ball.png" />
+               <link rel="shortcut icon" href="/logosite.png" />
             </Head>
 
+            <Header/>
             <div className="container">
 
-                  <h1>Infootball</h1>
 
+            <img src="/logo_name.png" width="500" height="333"/>
+                     <p>
+                          Todas as informações sobre o futebol, e mais um pouco venha conhecer e aprender conosco.   
+                     </p>
+                     <div className="galeria">
+                     
+                           <img src="/ball.png" width="500" height="333"/>
+                           <img src="/time.jpg" width="500" height="333"/>
+                           <img src="/estadio.jpeg" width="500" height="333"/>
+                     </div>
 
-                  <p>
-                        Todas as informações sobre o futebol, e mais um pouco venha conhecer e aprender conosco.   
-                  </p>
+                  <div className="">
+                     
+                        <button class="button-19" role="button">Vamos lá!</button>
 
-                  <div>
-                     <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                     </ul>
                   </div>
-               
+
             </div>
+
+
+
     
   
    </div>)
-           
+ 
 }
 
 

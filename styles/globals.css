@@ -5,24 +5,27 @@
 
 body {
     background-color: #1F2937;
-    color: snow;
     font-family:'Courier New', Courier, monospace;
 }
+
+
 
 .menu {
   color: black;
   display: flex;
   align-items: center;
-  background-color: #16A34A;
+  background-color: #18C619;
   padding: 10px;
+  
   justify-content: space-between;
 }
 
 .navbar {
-  align-self: flex-end;
+  font-weight: 900;
+  font-size: x-large;
   display: flex;
   justify-content: space-around;
-  min-width: 500px;
+  min-width: 600px;
 }
 
 .navlink {
@@ -31,11 +34,55 @@ body {
 }
 
 .container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  
+    background-color: white;
+    width: 100%;  
+    padding: 10px;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    min-height: 600px;
+    box-shadow: -10px 20px #888888;
+  }
+
+.titulo {
+  font-size: 100px;
+  font-weight: bolder;
+  align-self: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
+
+p {
+  padding: 20px;
+  color: black;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+
+}
+
+.galeria {
+  display: flex;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+h2 {
+
+   font-size: medium;
+   font-style: italic;
+}
+
+
+
 
 .color1 { color: #04ac9c };
 .color2 { color: #f9f39c };
