@@ -11,7 +11,7 @@ function Times() {
             <h1>Times</h1>
 
             <Link href="/">
-                <a>Home</a>
+                <a>voltar a home</a>
             </Link>
 
         </div>)
