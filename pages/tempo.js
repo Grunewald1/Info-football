@@ -1,4 +1,5 @@
 function Tempo (props) {
+    console.log('>Passando pelo Frontend;')
     const dinamicDate = new Date ();
     const dinamicDateString = dinamicDate.toGMTString();
 
@@ -14,6 +15,7 @@ function Tempo (props) {
 }
 
 export function getStaticProps()    {
+        console console.log('>Passando pelo getStaticProps();');
         const staticDate = new Date ();
         const staticDateString = staticDate.toGMTString();
 
