@@ -1,48 +1,39 @@
 import  Link  from "next/link";
-         
+import Head from "next/head";
+import Header from "../src/components/Header";
+
 function Home() { 
-
    return (
-   <div>      
-            <h1>Infootball</h1>
-            <h2>Home</h2>
-            <p>
+   <div>            
+            <Header />
 
-                  Todas as informações sobre o futebol, e mais um pouco venha conhecer e aprender conosco.   
-                  
-            </p>
-            <h3>
-                  Acessar:
-            </h3>
-            
-            <ol>
-               <li>
-                     <Link href="/sobre">
-                        <a >Sobre</a>   
-                     </Link>
-               </li>
-               <li>
-                     <Link href="/times">
-                        <a >Times</a>   
-                     </Link>         
-               </li>
-               <li>
-                    <Link href="/jogadores">
-                        <a >Jogadores</a>   
-                     </Link>         
-               </li>
-               <li>
-                     <Link href="/estadios">
-                        <a >Estadios</a>   
-                     </Link>  
-               </li>
-            </ol>
+            <Head>
+               <title>Infootball</title>
+               <link rel="shortcut icon" href="/ball.png" />
+            </Head>
+
+            <div className="container">
+
+                  <h1>Infootball</h1>
+
+
+                  <p>
+                        Todas as informações sobre o futebol, e mais um pouco venha conhecer e aprender conosco.   
+                  </p>
+
+                  <div>
+                     <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                     </ul>
+                  </div>
+               
+            </div>
+    
   
-
-
    </div>)
-
-            
+           
 }
 
 
