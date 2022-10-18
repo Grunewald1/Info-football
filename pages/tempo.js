@@ -15,7 +15,7 @@ function Tempo (props) {
 }
 
 export function getStaticProps()    {
-        console console.log('>Passando pelo getStaticProps();');
+        console.log('>Passando pelo getStaticProps();');
         const staticDate = new Date ();
         const staticDateString = staticDate.toGMTString();
 
