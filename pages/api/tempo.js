@@ -1,18 +1,27 @@
- async function tempo(request, response) {
-    const apiSecret = process.env.CONVERTKIT_API_SECRET;        
-    const dinamicDate = new Date();
+async function tempo(request, response) {
 
-    const subscribersResponse = await fetch(`https://api.convertkit.com/v3/subscribers?api_secret=${apiSecret}`)
-    const subscribersResponseJson = await subscribersResponse.json(); 
-    const inscritos = subscribersResponseJson.total_subscribers;
-    
-    response.setHeader('cache-control','s-maxage=10, stale-while-revalidate');
-    
+    const apiSecret = process.env.CONVERTKIT_API_SECRET;
+
+    const dynamicDate = new Date();
+
+
+    const subscribersResponse = await fetch(`https://info-football.free.beeceptor.com/times`); 
+
+
+    const subscribersResponseJson = await subscribersResponse.json();
+
+
+
+    response.setHeader('Cache-Control', 's-maxage=10', 'stale-white-revalidate');
+
     response.json({
-    date: dinamicDate.toGTMString()
-    
-     
+        date: dynamicDate.toUTCString(),
+        nome_time: subscribersResponseJson.name,
+        url_image: subscribersResponseJson.logoImage 
     })
 
 }
-    export default tempo;
+export default tempo;
+
+
+
