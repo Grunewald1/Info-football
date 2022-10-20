@@ -6,16 +6,20 @@ function Times() {
 
     return (
         <div>
-        <Header />
-                   
+            <Header />
 
-            <h1>Times</h1>
+            <div className="container">
 
-            <Link href="/">
-                <a>voltar a home</a>
-            </Link>
+                <h1>Times</h1>
+
+                <div>
+                    <div className="button-19">
+                        <Link href="/"><a>voltar</a></Link>
+                    </div>
+                </div>
 
 
+            </div>
         </div>)
 
 }

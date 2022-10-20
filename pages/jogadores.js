@@ -9,11 +9,16 @@ function Jogadores() {
         <div>
             <Header />
 
-            <h1>Jogadores</h1>
+            <div className="container">
+                <h1>Jogadores</h1>
 
-            <Link href="/">
-                <a>voltar a home </a>
-            </Link>
+                <div>
+                    <div className="button-19">
+                        <Link href="/"><a>voltar</a></Link>
+                    </div>
+                </div>
+
+            </div>
 
         </div>)
 }

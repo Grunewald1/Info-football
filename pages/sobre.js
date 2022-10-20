@@ -17,9 +17,11 @@ function Sobre() {
                 <h2>siga agente nas redes socias para acompanhar novidadades</h2> 
 
 
-                <Link href="/">
-                    <div className="button-19">voltar a home </div>
-                </Link>
+                <div>
+                    <div className="button-19">
+                        <Link href="/"><a>voltar</a></Link>
+                    </div>
+                </div>
 
             </div>
 
