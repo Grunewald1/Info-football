@@ -6,12 +6,9 @@ import Header from "../src/components/Header";
 
 function Home() {
       return (
-            <div>
+            <div className="flex-column">
 
-                  <Head>
-                        <title>Infootball</title>
-                        <link rel="shortcut icon" href="/logosite.png" />
-                  </Head>
+
 
                   <Header />
                   <div className="container">

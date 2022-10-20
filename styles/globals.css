@@ -6,9 +6,8 @@
 body {
     background-color: #1F2937;
     font-family:'Courier New', Courier, monospace;
+    
 }
-
-
 
 .menu {
   color: black;
@@ -16,16 +15,23 @@ body {
   align-items: center;
   background-color: #18C619;
   padding: 10px;
-  
+  width: 100%;
   justify-content: space-between;
 }
+
 
 .navbar {
   font-weight: 900;
   font-size: x-large;
   display: flex;
   justify-content: space-around;
-  min-width: 600px;
+}
+
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  
 }
 
 .navlink {
@@ -40,7 +46,9 @@ body {
     margin-top: 10px;
     margin-right: auto;
     margin-left: auto;
-   display: flex;
+
+
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
@@ -60,11 +68,7 @@ p {
   color: black;
 }
 
-.logo-container {
-  display: flex;
-  align-items: center;
 
-}
 
 .galeria {
   display: flex;
@@ -84,9 +88,6 @@ h2 {
    font-size: medium;
    font-style: italic;
 }
-
-
-
 
 .color1 { color: #04ac9c };
 .color2 { color: #f9f39c };

@@ -5,6 +5,8 @@ import '../styles/globals.css'
 
 import '../styles/components/button.css'
 
+import '../styles/components/menu.css'
+
 
 function MyApp({ Component, pageProps }) {
   return (

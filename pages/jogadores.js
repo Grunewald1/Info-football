@@ -12,11 +12,13 @@ function Jogadores() {
             <div className="container">
                 <h1>Jogadores</h1>
 
-                <div>
-                    <div className="button-19">
-                        <Link href="/"><a>voltar</a></Link>
+                <Link href="/">
+                    <div>
+                        <div className="button-19">
+                                voltar
+                        </div>
                     </div>
-                </div>
+                </Link>
 
             </div>
 

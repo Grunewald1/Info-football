@@ -9,7 +9,9 @@ function Sobre() {
             <Header />
 
             <div className="container">
+
                 <h1 className="color-dark">Sobre</h1>
+                
                 <p> 
                     aqui agente se preocupa em falar sobre todas as noticias do que acontece no mundo da bola.
                 </p>
@@ -17,11 +19,14 @@ function Sobre() {
                 <h2>siga agente nas redes socias para acompanhar novidadades</h2> 
 
 
-                <div>
-                    <div className="button-19">
-                        <Link href="/"><a>voltar</a></Link>
+                <Link href="/">
+                    <div>
+                        <div className="button-19">
+                                voltar
+                        </div>
                     </div>
-                </div>
+                </Link>
+
 
             </div>
 
