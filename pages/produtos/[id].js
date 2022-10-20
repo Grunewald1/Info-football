@@ -16,7 +16,7 @@ export async function getStaticPaths(){
 }
 
 export async function getStaticProps(context) {
-    await  delay(5000);
+    await  delay(1000);
     const id = context.params.id;
 
     return {
@@ -27,7 +27,7 @@ export async function getStaticProps(context) {
 }
 
 function Produtos(props) {
-    return <div>Id do produto: {props.id}</div>
+    return <div className="container">Id do produto: {props.id}</div>
 }
 
 export default Produtos;
